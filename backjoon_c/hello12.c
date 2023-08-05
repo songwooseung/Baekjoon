@@ -9,7 +9,7 @@ int main()
 
     while(X>0) // 붙일 수 있을 때까지
     {
-        if(N > X)  
+        if(N > X)
             N/=2; 
         else 
         {
