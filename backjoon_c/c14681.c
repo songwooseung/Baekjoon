@@ -1,3 +1,4 @@
+//백준 14681
 #include <stdio.h>
 int main(){
     int x,y;
