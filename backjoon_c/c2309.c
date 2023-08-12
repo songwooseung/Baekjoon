@@ -1,5 +1,5 @@
 //백준 2309
-//브1
+//23/08/12
 #include <stdio.h>
 int main()
 {
