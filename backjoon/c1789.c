@@ -4,8 +4,7 @@
 #include <stdio.h>
 int main()
 {
-    long long int input; // 4,294,967,295는 int 범위로 나타낼 수 없기 때문.
-    int S = 0, N = 0;
+    long long int input, S = 0, N = 0;; // 4,294,967,295는 int 범위로 나타낼 수 없기 때문.
 
     scanf("%d",&input);
 
