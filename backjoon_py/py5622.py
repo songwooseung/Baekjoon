@@ -3,7 +3,6 @@
 cnt = 0
 a = list(input())
 
-'''
 # 1번 방법
 dial = ["ABC","DEF",'GHI',"JKL","MNO","PQRS","TUV","WXYZ"]
 for i in a: # 반복문이므로 0번째 방부터 하나하나 넣는다?
@@ -13,8 +12,7 @@ for i in a: # 반복문이므로 0번째 방부터 하나하나 넣는다?
 print(cnt)
 
 # for i in a는 리스트 a에 있는 값들을 i에 하나하나 순서대로 옮겨서 사용하는 것이다. 
-'''
-    
+
 '''
 # 2번 방법
 for i in range(len(a)) :
