@@ -17,6 +17,7 @@ while(M <= N):
 if(N != 0) : 
     print("0") #sum과 N이 같을 때 N = 0으로 만들었으므로 만약 while문을 다돌아도 값을 못찾으면 0출력
 ''' 
+# (2) 파이썬 스타일로 푼 문제
 while M <= N :
     SUM = M + sum(map(int,str(M))) # 이렇게 사용하면 각 자릿수의 합을 구할 수 있다. (M을 string으로 하나하나 뽑아서) 
     if(SUM == N):
