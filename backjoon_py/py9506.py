@@ -18,5 +18,5 @@ while(1):
                 print("+",end=" ")   
         print()   
     else :
-        print(f"{n} is NOT perfect.")
+        print(f"{n} is NOT perfect.") # 문자열 입력시 실수하지말기..
         continue
