@@ -1,4 +1,4 @@
-#1157번 문제: 단어 공부
+# 1157번 문제: 단어 공부
 
 '''
 s = input().upper()
@@ -13,7 +13,6 @@ if cnt_list.count(max(cnt_list)) > 1: # count 숫자 최대값이 중복되면
 else:
     print(s_list[cnt_list.index(max(cnt_list))]) # cnt_list의 최대값 인덱스를 찾고 s_list의 해당 인덱스 문자 출력
 '''
-
 # set 함수를 사용하지 않고 풀기
 s = input().upper()
 arr = [0] * 26
