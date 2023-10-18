@@ -19,7 +19,7 @@ s = input().upper()
 arr = [0] * 26
 for i in s:
     arr[ord(i)-65] += 1 # ord() 함수는 문자의 아스키 코드 값을 돌려주는 함수
-if arr.count(max(arr)) > 1:
+if arr.count(max(arr)) > 1: # count 숫자 최대값이 중복되면
     print('?')
 else:
     print(chr(arr.index(max(arr))+65)) # chr() 함수는 아스키 코드 값을 문자로 변환하는 함수
