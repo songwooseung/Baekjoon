@@ -1,3 +1,4 @@
+# 13410번: 거꾸로 구구단
 import sys
 arr = []
 N, K = map(int, sys.stdin.readline().split())
