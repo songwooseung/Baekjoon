@@ -1,6 +1,7 @@
 # 함수를 이용한 풀이
 import sys
-input = sys.stdin.readline
+input = sys.stdin.readline 
+# input이 sys.stdin.readline의 속도를 갖는다.
 
 def nmg(n): 
     cnt = 0
