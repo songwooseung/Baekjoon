@@ -3,7 +3,6 @@ import sys
 input = sys.stdin.readline
 N = int(input())
 h = []
-s = [0] * N
 for i in range(N):
     h.append(list(map(int,input().split()))) # append 시 이차원 배열 가능
 
