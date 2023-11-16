@@ -3,7 +3,9 @@ import datetime as dt
 now = dt.datetime.today()
 print(now.year,now.month,now.day, sep='-')
 
+'''
 # 2번 방법
 print(dt.date.today())
 # 3번 방법
 print(str(dt.datetime.today())[:10])
+'''
