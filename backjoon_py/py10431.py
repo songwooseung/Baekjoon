@@ -10,9 +10,9 @@ for _ in range(T):
     li = arr[1:]
     total = 0 
 
-    for i in range(0,len(li)): # index 1~19
-        for j in range(0, i): # 1 ~ 19
-            if(li[i] < li[j]): # 규칙 1 : 자신보다 큰 수가 앞에 없으면 그대로 서고 차례가 끝남
+    for i in range(0,len(li)): # index 0 ~ 19
+        for j in range(0, i): # 0 ~ 18 -> 어차피 i,j비교라 마지막 인덱라는 i만 해당하면 됨
+            if(li[i] < li[j]): 
                 li[i],li[j] = li[j], li[i]
                 total += 1
-    print(arr[0],total)
+    print(count,total)
