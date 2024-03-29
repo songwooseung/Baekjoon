@@ -1,3 +1,4 @@
+# 그리디 알고리즘 : 최소 값을 구하는 데에 사용되는 근사적인 방법
 import sys
 input = sys.stdin.readline
 
