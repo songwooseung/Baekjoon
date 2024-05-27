@@ -20,9 +20,6 @@ for _ in range(M):
     search = input().strip('\n')
     print(password[search])
     
-
-
-
 '''
 -> 정답이지만 시간초과가 나는 비효율적인 코드
 
