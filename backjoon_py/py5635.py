@@ -1,3 +1,5 @@
+# 람다함수 익히기
+
 import sys
 input = sys.stdin.readline
 
