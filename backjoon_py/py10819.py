@@ -1,4 +1,4 @@
-# 1. itertools 함수로 푼 방법
+# 1. itertools 함수로 모든 경우의 수 만들어서 뽑는 방법
 # from itertools import permutations
 import sys 
 from itertools import permutations 
@@ -20,7 +20,7 @@ for li in arr2 :
 
 print(result)
 
-# 2. 백트래킹으로 구현한 방법 
+# 2. 재귀로 구현한 방법 
 
 # n = int(input())
 # in_list = list(map(int ,input().split()))
