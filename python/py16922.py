@@ -1,3 +1,4 @@
+# 배열을 만들어 합에 해당하는 수의 개수를 카운트하는 문제 풀이
 import sys 
 input = sys.stdin.readline
 
@@ -24,8 +25,8 @@ back(0,0)
 
 print(sum(sum_list))
 
-
-''' 시간 초과 코드
+# SET을 이용한 문제 풀이
+''' 
 import sys
 input = sys.stdin.readline
 
@@ -35,16 +36,16 @@ S = set()
 roma = [1,5,10,50]
 arr = []
 
-def back(k):
+def back(k,num):
     if N == k :
         S.add(sum(arr)) 
         return 
 
-    for i in range(4):
+    for i in range(num,4):
         arr.append(roma[i])
-        back(k+1)
+        back(k+1,i)
         arr.pop()
 
-back(0)
+back(0,0)
 print(len(S))
 '''
