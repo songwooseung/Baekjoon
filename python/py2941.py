@@ -1,11 +1,9 @@
 import sys
 input = sys.stdin.readline
 
-
 c_word = input().strip()
 cnt = 0
 i = 0
-
 
 while i < len(c_word) :
     if i+1 < len(c_word):
@@ -47,7 +45,6 @@ while i < len(c_word) :
                 cnt+=1                
                 i+=2
                 continue
-    
     cnt += 1
     i += 1
         
